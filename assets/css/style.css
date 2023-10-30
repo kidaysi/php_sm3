@@ -1,0 +1,55 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+section{
+
+    padding-top: 40px;
+}
+
+.title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.info_animal{
+    padding: 20px;
+    background-color: rgb(140, 135, 194);
+    border-radius: 5px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.title_name{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
